@@ -84,7 +84,7 @@
           blurb: '',
         },
         {
-          name: 'Java',
+          name: 'JavaScript',
           icon: 'mdi-language-java',
           blurb: '',
         },
