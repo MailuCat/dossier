@@ -24,7 +24,7 @@
           como desarrolladora Front End en el bootcamp de Desafío Latam.
           En lo personal soy una enamorada de la naturaleza y seguidora de los avances de la ciencia,
           por eso estoy en aprendizaje continuo para ir siempre conectada con este
-          mundo de rápida evolución, <br>
+          mundo de rápida evolución. <br>
         </base-text>
 
         <base-subheading class="info--text">
