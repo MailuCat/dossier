@@ -6,9 +6,7 @@
         cols="12"
         md="12"
       >
-        <base-bubble-1
-          style="transform: rotate(180deg) translateX(25%)"
-        />
+        <base-bubble-1 style="transform: rotate(180deg) translateX(25%)" />
 
         <base-heading>
           Proyectos Recientes
@@ -32,14 +30,14 @@
             max-width="600"
           >
             <v-img
-              :src="require('@/assets/olivia.ross.png')"
+              :src="require('@/assets/foto_efectomariposa.jpg')"
               height="400px"
               aspect-ratio="1.7"
               contain
             />
 
             <v-card-title class="mb-2">
-              Olivia Ross
+              Efecto Mariposa
             </v-card-title>
 
             <v-card-subtitle>
@@ -52,12 +50,48 @@
               class="ma-3"
               text
               color="deep-purple accent-4"
-              href="https://kind-kepler-e132e7.netlify.app"
+              href="https://www.efectomariposa.org"
             >
               Ver demo
             </v-btn>
           </v-card>
         </template>
+      </v-col>
+      <v-col
+        cols="12"
+        sm="6"
+        md="6"
+      >
+        <v-card
+          class="mx-auto pt-5 "
+          max-width="600"
+        >
+          <v-img
+            :src="require('@/assets/olivia.ross.png')"
+            height="400px"
+            aspect-ratio="1.7"
+            contain
+          />
+
+          <v-card-title class="mb-2">
+            Olivia Ross
+          </v-card-title>
+
+          <v-card-subtitle>
+            <v-icon>{{ mdiLanguageHtml5 }}</v-icon>
+            <v-icon>{{ mdiLanguageJavascript }}</v-icon>
+            <v-icon>{{ mdiLanguageCss3 }}</v-icon>
+            <v-icon>{{ mdiBootstrap }}</v-icon>
+          </v-card-subtitle>
+          <v-btn
+            class="ma-3"
+            text
+            color="deep-purple accent-4"
+            href="https://kind-kepler-e132e7.netlify.app"
+          >
+            Ver demo
+          </v-btn>
+        </v-card>
       </v-col>
       <v-col
         cols="12"
@@ -271,10 +305,11 @@
             </v-btn>
           </v-card>
         </template>
-      </v-col><v-col
+      </v-col>
+      <v-col
         cols="12"
-        sm="6"
-        md="6"
+        sm="12"
+        md="12"
       >
         <template>
           <v-card
@@ -310,8 +345,17 @@
     </v-row>
   </v-container>
 </template>
+
 <script>
-  import { mdiLanguageHtml5, mdiLanguageJavascript, mdiLanguageCss3, mdiBootstrap, mdiVuejs, mdiSass, mdiJquery } from '@mdi/js'
+  import {
+    mdiLanguageHtml5,
+    mdiLanguageJavascript,
+    mdiLanguageCss3,
+    mdiBootstrap,
+    mdiVuejs,
+    mdiSass,
+    mdiJquery,
+  } from '@mdi/js'
 
   export default {
     name: 'RecentProjects',
