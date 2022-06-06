@@ -30,7 +30,7 @@
             max-width="600"
           >
             <v-img
-              :src="require('@/assets/foto_efectomariposa.jpg')"
+              :src="require('@/assets/foto_efecto.jpg')"
               height="400px"
               aspect-ratio="1.7"
               contain
