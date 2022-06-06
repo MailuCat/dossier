@@ -20,11 +20,12 @@
 
         <base-text class="mb-5">
           Mi creatividad y versatilidad están aplicados hoy en mi trabajo
-          como Front End. Anteriormente estuve vinculada al mundo digital como periodista, esta buena experiencia me llevó a especializarme
+          como Front End. Hasta ahora estuve vinculada a internet desde el periodismo digital, esta buena experiencia me llevó a especializarme
           como desarrolladora Front End en el bootcamp de Desafío Latam.
           En lo personal soy una enamorada de la naturaleza y seguidora de los avances de la ciencia,
           por eso estoy en aprendizaje continuo para ir siempre conectada con este
-          mundo de rápida evolución. <br>
+          mundo de rápida evolución.
+          <br>
         </base-text>
 
         <base-subheading class="info--text">
